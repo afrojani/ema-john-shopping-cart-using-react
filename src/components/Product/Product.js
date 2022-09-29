@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './Product.css'
 const Product = (props) => {
-    console.log(props)
+    // console.log(props)
     const { product, handleAddToCart } = props;
     const { name, img, seller, price, ratings } = product;
     return (
